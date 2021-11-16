@@ -1,0 +1,130 @@
+
+
+  @media screen and (max-width: 992px) 
+  {
+    
+  }
+  @media screen and (max-width: 768px)
+  {
+
+  }
+  @media screen and (min-width: 768px)
+  {
+
+  }
+
+  .section-header
+  {
+    height: 100px;
+    background-color:silver;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+    
+  }
+
+  .colonne-logo
+  {
+    
+  }
+
+  .colonne-menu
+  {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+.heb
+{
+  white-space: 20px;
+  padding-left: 40px;
+  border-top: 1px solid grey;
+}
+.act
+{
+ padding-top: 40px;
+ 
+ 
+
+}
+  .Titre-2
+  {
+
+  }
+
+.rechercher
+  {
+  display:flex;
+  flex-direction:row;
+  align-items: baseline;
+  }
+
+  .filtre
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-right:48%;
+    font-weight: bold;
+  }
+
+.point-info
+{
+  display: flex;
+  margin-left: 4%;
+}
+
+.hebergements
+{
+  display:flex;
+  flex-direction:row;
+}
+
+
+  .section-hebergement
+  {
+    display:flex;
+    flex-direction:column;
+
+
+   
+  }
+  
+
+  .section-lespluspopulaires
+  {
+    display:flex;
+    
+  }
+
+  .section-activite
+  {
+
+  }
+
+
+  .section-footer
+  {
+    background-color: rgb(234,234,234);
+   
+  }
+
+  .a-propos
+  {
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+  }
+
+  .nos-hebergements
+  {
+    display: flex;
+    align-self:center;
+
+  }
+
+
+

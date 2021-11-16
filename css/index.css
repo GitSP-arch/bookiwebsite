@@ -6,61 +6,102 @@
     margin-right:4%;
   }
 
-  .section-header
+  nav
   {
-    height: 100px;
     display:flex;
     flex-direction: row;
     justify-content:space-between;
-    align-items:center;  
+    align-items:center;
   }
-  .colonne-menu a
+  nav img
   {
-    color:black;
-    text-decoration:none;
-  }
-  .marge-menu 
-  {
-    padding-top: 30%;
-  }
-  .colonne-menu a:hover
-  {
-    color:blue;  
+    height:90px;
   }
 
-  .bordure-hebergement
+  nav ul
   {
-    border-top:solid 1px blue;
-    padding-top: 18%; 
-    margin: 0 32% 0 0;
+    display:flex;
+    list-style: none;
   }
 
+  nav li
+  {
+    margin:0 10px 0 20px;
+  }
+
+nav ul li .color-blue
+{
+  border-top: solid rgb(19, 96, 211) 2px;
+  
+}
+ul li .color-blue
+{
+ color:rgb(19, 96, 211);
+}
+header ul li a 
+{
+  text-decoration: none;
+}
+
+ ul li .color-black
+{
+  color:black;
+}
+
+.color-blue
+{
+ padding-top:35px;
+}
   .search
   {
     display:flex;
-    flex-direction: row;
+    width:100%;
+    margin-right:10px;
   }
-
-  .search div
+  form
   {
-    display:flex;
-    align-items: center;
-    padding: 0 0.8% 0 0.8%;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
   }
 
-  .filtre
-{
-  display:flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding-right:40%;
-  align-content: center;
+  form button
+  {
+    color: white;
+    border-radius: 0 10px 10px  0;
+    width: 80%;
+    background-color: #0d67ee;
+    font-weight: bold;
+    border: none;
+  }
+
+  input {
+    display: flex;
+    width: 100%;
+    border: none;
+    border-top: 2px solid #F2F2F2;
+    border-bottom: 2px solid #F2F2F2;
+    text-align: center;
+    font-weight: bold;
+    padding-left:30px;
+    margin-left: 1px;
 }
 
-  .i 
-  {
-    margin-right: 3px;
-  }
+  .search div i 
+ {
+  margin-top:8px;
+  width: 30px;
+  margin-left:20px;
+  height: 10px;
+ }
+
+ .search div
+ {
+  border-radius:10px 0 0 10px;
+  border: 3px solid #F2F2F2;
+  background-color: rgba(223, 217, 217, 0.767);
+ }
+
   .info
 {
   display:flex;
@@ -68,100 +109,69 @@
   align-items:baseline;
 }
 
-.element-centre img
-{
-  width:150px;
-  height:90px;
-}
-.element-centre
-{
-  display: flex;
-  padding-bottom: 95px;
-}
-.img-2
-{
-  margin-left:-100px;
-}
-.img-3
-{
-  margin-left:-60px;
-}
-
-.ligne-2 img
-{
-  width:150px;
-  height:90px;
-}
-aside >.ligne-2
-{
-  display:flex;
-  flex-direction:row;
-
-}
-.img-5
-{
-  margin-left:-70px;
-}
-.img-6
-{
-  margin-left:-60px;
-}
-.colonne-1
-{
-  position: relative;
-  bottom:-80px;
-  left:-140px;
-}
-.colonne-2
-{
-  position: relative;
-  bottom:-80px;
-  left:-140px;
-
-}
-.colonne-3
-{
-  position: relative;
-  bottom:-80px;
-  left:-140px;
-}
-
-.colonne-4
-{
-  position: relative;
-  bottom:-80px;
-  left:-140px;
-}
-.colonne-5
-{
-  position: relative;
-  bottom:-80px;
-  left:-140px;
-}
-
-.colonne-6
-{
-  position: relative;
-  bottom:-80px;
-  left:-140px;
-}
-.element-bas
-{
-  display:flex;
-  margin-top:60px;  
-}
-.titre
+/*filtre*/
+#filtre-conteneur
 {
   display:flex;
   flex-direction: row;
+  justify-content: flex-start;
+  align-content: center;
 }
-.img
+
+section .element-filtre i
 {
-  width:40px;
-  height:30px;
+ padding-left:O;
+}
+.element-filtre
+{
+  border: 2px solid rgb(214, 213, 213);
+  border-radius: 30px;
+  border-left: none;
+  margin-right: 20px;
+
+}
+strong
+{
+  padding: 10px 20px 8px 10px ;
 }
 
+.icone{
+  display: flex;
+  align-items: center;
+}
+.icone i
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-around; 
+}
+/* width -> pour apporter
+de l'espace entre les éléments*/
+.icone i
+{
+ color: rgba(12, 75, 250, 0.932);
+ width: 40px;
+ height:40px;
+ border-radius:45% 45% 45% 45%;
+ background-color: rgb(228, 238, 252);
+ margin:-2px;
 
+}
+
+/*hebergement-marseille*/
+
+img
+{
+  width: 155px;
+  height: 85px;
+  border-radius:7% 7% 0 0;
+  display:flex;
+  align-items: flex-start;
+}
+
+.element-centre img
+{
+}
   
 
 
