@@ -160,20 +160,151 @@ de l'espace entre les éléments*/
 
 /*hebergement-marseille*/
 
+.element-titre
+{
+  padding-left: 5%;
+  padding-top:3% ;
+}
+
 img
 {
-  width: 155px;
-  height: 85px;
-  border-radius:7% 7% 0 0;
+  width: 165px;
+  height: 88px;
+  border-radius:9px 9px 0 0;
   display:flex;
   align-items: flex-start;
 }
+/*hebergement à Marseille*/
 
-.element-centre img
+.container-hebergement
 {
+  display:flex;
+  flex-direction:column;
+  border-radius:10px;
+  background-color: rgba(243, 243, 243, 0.733);
+  width:65%;
+  margin-top:2%;
+  margin-left: 0,5px;
 }
-  
+.ligne-1
+{
+  display: flex;
+  justify-content: space-around;
+}
+.ligne-2
+{
+  display:flex;
+  justify-content: space-around;
+}
 
+.element-bas
+{
+  padding-bottom: 3%;
+  padding-left: 5%;
+}
+
+/*Les plus populaires*/
+
+.container-populaire
+{
+  display:inline-block;
+  flex-direction: column;
+  border-radius:10px;
+  background-color: rgb(243, 243, 243);
+  width:32%;
+  height: 700px;
+}
+.container-populaire
+{
+  position:relative;
+  left: 68%;
+  margin-bottom:90%;
+}
+
+#titre
+{
+ display: flex;
+ justify-content: space-around;
+ margin: 0 -50px 0 -50px;
+}
+.fa-chart-line
+{
+  padding-top:5%;
+}
+
+#element-populaire
+{
+ display: flex;
+ align-items:flex-start;
+ flex-direction:column;
+ padding-left: 40px;
+}
+#element-populaire .hotel-soleil img
+{
+  width: 120px;
+  height:110px;
+  border-radius: 14px 0 0 14px;
+}
+.hotel-soleil 
+{
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+}
+
+#element-populaire .hotel-coeur img
+{
+  width: 120px;
+  height:110px;
+  border-radius: 14px 0 0 14px;
+}
+#element-populaire .hotel-bleu img
+{
+  width: 120px;
+  height:110px;
+  border-radius: 14px 0 0 14px;
+}
+.hotel-soleil
+{
+  border:solid white;
+  border-radius: 10px 10px 10px 10px;
+}
+.items-soleil 
+{
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 -8px 12px;
+}
+
+.items-soleil span p
+{
+font-size: 2%;
+}
+.hotel-coeur{
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+}
+
+.items-coeur
+{
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 -8px 12px;
+}
+.hotel-bleu
+{
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+}
+
+.items-bleu
+{ 
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 -8px 12px;
+}
 
 
 
